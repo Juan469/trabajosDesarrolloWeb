@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     login() {
-      // Buscar usuario en el archivo JSON importado
+      
       const valido = usersData.find(
         (u) => u.user === this.usuario && u.pass === this.clave
       )
